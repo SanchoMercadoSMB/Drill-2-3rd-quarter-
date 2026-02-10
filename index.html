@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sample</title>
+
+    <style>
+        body {
+            background-color: lightblue; /* Change this color */
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        form {
+            background-color: white;
+            padding: 20px;
+            display: inline-block;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+        }
+
+        input {
+            margin: 5px;
+            padding: 8px;
+        }
+
+        #output {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form>
+        <input type="number" id="base" placeholder="Base"><br>
+        <input type="number" id="height" placeholder="Height"><br>
+        <input type="button" onclick="computingArea()" value="Compute">
+    </form>
+
+    <div id="output"></div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
